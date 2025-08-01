@@ -107,7 +107,7 @@ services:
     depends_on:
       - mongos_router
     ports:
-      - 8081:8080
+      - 8080:8080
     networks:
       - app-network
     environment:
